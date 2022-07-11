@@ -35,7 +35,7 @@ const NavBar = () => {
             <a className="mr-5 hover:text-gray-900">Contact Us</a>
           </Link>
         </nav>
-        <button className="inline-flex items-center bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-base mt-4 md:mt-0 text-white">
+        <button className="inline-flex items-center bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-base mt-4 md:mt-0 text-white font-bold">
           Login
           <svg
             fill="none"
