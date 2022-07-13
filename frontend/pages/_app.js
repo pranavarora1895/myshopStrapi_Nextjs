@@ -29,6 +29,10 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>MyShop</title>
+        <meta
+          name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0"
+        />
       </Head>
       <NavBar key={reloadKey} cart={cart} />
       <Component
